@@ -1,0 +1,127 @@
+{
+  "TEST": "Test",
+  "MORE": "Learn More",
+  "ADD_CARD": "Add to card",
+  "BACK": "Back",
+  "CATEGORIES": "Categories",
+  "auth/network-request-failed":"Connection lost.",
+  "auth/wrong-password":"The password is invalid.",
+  "auth/too-many-requests":"Too many requests",
+  "auth/email-already-in-use":"This email already in use․",
+  "auth/weak-password":"Week password․",
+  "auth/invalid-email":"Invalid email.",
+  "auth/user-not-found":"User not found․",
+  "auth/user-disabled":"This user is disabled",
+  "PASSWORD_RESET":"Check your email․",
+  "PROFILE_DATA_UPDATE":"Your profile data has been updated",
+  "SUCCESS_REGISTRATION":"You have been successfully registered․",
+  "SUCCESS_ADD_PRODUCT":"Product has been successfully added.",
+  "SUCCESS_EDIT_PRODUCT":"Product has been successfully updated.",
+  "SUCCESS_DELETE_PRODUCT":"Product has been successfully deleted.",
+  "COMMON_ERROR":"Оperation failed․",
+  "ERROR_GET_DATA":"Data get error.The server is unavailable",
+  "ERROR_FILE_TYPE": "Unsupported file type․",
+  "LOGIN": {
+    "TITLE": "Login",
+    "FORGOT_YOUR_PASSWORD": "Forgot Your Password ?",
+    "E-MAIL": "Email",
+    "DONT_HAVE_ACCOUNT": "Don't have an account yet?",
+    "SIGN_UP": "Sign up",
+    "FILL_EMAIL": "Please fill your email."
+  },
+  "REGISTRATION": {
+    "TITLE": "REGISTRATION",
+    "FORGOT_YOUR_PASSWORD": "Forgot Your Password ?",
+    "E-MAIL": "Email",
+    "DONT_HAVE_ACCOUNT": "Don't have an account yet?",
+    "SIGN_UP": "Sign up"
+  },
+  "PROFILE": {
+    "TITLE": "My Account",
+    "E-MAIL": "Email"
+  },
+  "ORDER":{
+    "TITLE":"Order page"
+  },
+  "FOOTER": {
+    "ADDRESS": "Armenia, Yerevan",
+    "PHONE": "Phone՝ +(374)-55-555-555,+(374)-99-999-999",
+    "EMAIL": "Email:  info@gmail.com",
+    "COPYRIGHT": "Copyright © 2018 - 'XXXXXXXXXXX.am' All Rights Reserved."
+  },
+  "PODUCT_INFO": {
+    "PRICE": "Price",
+    "CURRENCY": "AMD",
+    "QUANTITY": "quantity"
+  },
+  "HEADER":{
+    "SEARCH_PLACEHOLDER":"Search for...",
+    "HOME":"home",
+    "ADMIN": "Admin",
+    "ACCOUNT":"My Account",
+    "CART":"shoping cart",
+    "SIGN_OUT":"Sign Out"
+  },
+  "COMMON":{
+    "NA": "Not available"
+  },
+  "SHARED":{
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "ADDRESS": "Shipping Address",
+    "PHONE": "Phone Number",
+    "PHONE_2": "Add. Phone Number",
+    "SAVE": "Save",
+    "NEXT": "Next",
+    "REQUIRED_FIELD": "Required Field",
+    "INVALID_PHONE": "Invalid Phone Number",
+    "WEAK_PASSWORD": "Weak Password.",
+    "BAD_E-MAIL": "Invalid E-Mail",
+    "TOO_LONG": "Input Is Too Long",
+    "COMMUNITY":"Community",
+    "PASSWORD": "Password",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "ADD_INFO": "Additional information...",
+    "INVALID_PASSWORD": "Invalid password",
+    "NOT_EQUAL_PASSWORDS": "Passwords don't match.",
+    "ARMENIAN_TEXT": "Text should be in armenian",
+    "ENGLISH_TEXT": "Text should be in english"
+  },
+  "ADMIN":{
+    "TOTAL_USERS": " Total Users: ",
+    "TOTAL_ORDERS": " Total Orders: ",
+    "TOTAL_MEDICINE": " Total Medicine: ",
+    "TOTAL": " Total ",
+    "PRODUCTS": " Products ",
+    "CATEGORIES": "Categories ",
+    "NAME": " Name ",
+    "DISCRIPTION": " Discription ",
+    "PRICE": " Price ",
+    "ADD": " Add ",
+    "EDIT_PRODUCT": " Edit Product ",
+    "ADD_PRODUCT": " Add Product ",
+    "CHOOSE_PICTURE": " Choose a picture ",
+    "BACK": " Back ",
+    "EDIT": " Edit ",
+    "ARE_YOU_WANT": " Are you want to delete product? ",
+    "DELETE": " Delete ",
+    "CANCEL": " Cancel ",
+    "CHOOSE_CATEGORY": "Choose Category",
+    "CATEGORY_ENG": "Add Category In English",
+    "CATEGORY_ARM": "Add Category In Armenian",
+    "ADD_CATEGORY": "Add Category",
+    "OR_ADD_CATEGORY": "Or Add Category",
+    "DONE" : "Done"
+  },
+  "CART": {
+    "PRICE": " Price ",
+    "QUANTITY": " Quantity ",
+    "SUBTOTAL": " Subtotal ",
+    "REMOVE": " Remove ",
+    "PRODUCT": " PRODUCT ",
+    "CART_EMPTY": " The cart is empty yet ",
+    "CHECKOUT": " Checkout ",
+    "TOTAL": " Total ",
+    "CONT_SHOPPING": " Continue Shopping "
+  }
+}

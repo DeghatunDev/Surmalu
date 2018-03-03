@@ -1,0 +1,127 @@
+{
+  "TEST": "Թեսթ",
+  "MORE": "Իմանալ ավելին",
+  "ADD_CARD": "Ավելացնել",
+  "BACK": "Վերադառնալ",
+  "CATEGORIES": "Կատեգորիաներ",
+  "auth/network-request-failed":"Կապի խափանում․",
+  "auth/wrong-password":"Գաղտնաբառը սխալ է․",
+  "auth/too-many-requests":"Չափից շատ հարցումներ․",
+  "auth/email-already-in-use":"Այդ հասցեն արդեն օգտագործված է․",
+  "auth/weak-password":"Թույլ գաղտնաբառ․",
+  "auth/invalid-email":"Սխալ էլ․ հասցե.",
+  "auth/user-not-found":"Անհայտ օգտատեր․",
+  "auth/user-disabled":"Այս օգտատերը արգելափակված է",
+  "PASSWORD_RESET":"Ստուգեք գրանցված Էլ․փոստը․",
+  "PROFILE_DATA_UPDATE":"Ձեր տվյալները թարմացվեցին",
+  "SUCCESS_REGISTRATION":"Դուք հաջողությամբ գրանցվեցիք․",
+  "SUCCESS_ADD_PRODUCT":"Ապրանքը հաջողությամբ ավելացվեց․",
+  "SUCCESS_EDIT_PRODUCT":"Ապրանքը հաջողությամբ թարմացվեց․",
+  "SUCCESS_DELETE_PRODUCT":"Ապրանքը հաջողությամբ ջնջվեց․",
+  "COMMON_ERROR":"Գործողությունը չհաջողվեց կատարել․",
+  "ERROR_GET_DATA":"Տվյալների ստացման սխալ․Սերվերը անհասանելի է",
+  "ERROR_FILE_TYPE": "Փայլի տիպը սխալ է․",
+  "LOGIN": {
+    "TITLE": "Մուտք",
+    "FORGOT_YOUR_PASSWORD": "Մոռացե՞լ եք գաղտնաբառը",
+    "E-MAIL": "Էլ․ հասցե",
+    "DONT_HAVE_ACCOUNT": "Չունե՞ք դեռ անձնական էջ․",
+    "SIGN_UP": "Գրանցվել",
+    "FILL_EMAIL": "Լրացրեք գրանցված էլ․փոստը․"
+  },
+  "REGISTRATION": {
+    "TITLE": "Գրանցում",
+    "FORGOT_YOUR_PASSWORD": "Մոռացե՞լ եք գաղտնաբառը",
+    "E-MAIL": "Էլ․ հասցե",
+    "DONT_HAVE_ACCOUNT": "Չունե՞ք դեռ անձնական էջ `",
+    "SIGN_UP": "Գրանցվել"
+  },
+  "PROFILE": {
+    "TITLE": "Անձնական էջ",
+    "E-MAIL": "Էլ․ հասցե"
+  },
+  "ORDER":{
+    "TITLE":"Պատվերի հայտ"
+  },
+  "FOOTER": {
+    "ADDRESS": "Հայաստան, Երևան",
+    "PHONE": "Հեռախոս՝ +(374)-55-555-555,+(374)-99-999-999",
+    "EMAIL": "Email:  info@gmail.com",
+    "COPYRIGHT": "Copyright © 2018 - 'XXXXXXXXXXX.am' All Rights Reserved."
+  },
+  "PODUCT_INFO": {
+    "PRICE": "Գինը",
+    "CURRENCY": "դրամ",
+    "QUANTITY": "քանակ"
+  },
+  "HEADER":{
+    "SEARCH_PLACEHOLDER":"Փնտրել...",
+    "HOME":"Գլխավոր",
+    "ACCOUNT":"Իմ էջ",
+    "ADMIN": "Ադմին",
+    "CART":"Զամբյուղ",
+    "SIGN_OUT":"Ելք"
+  },
+  "COMMON":{
+    "NA": "Հասանելի չէ"
+  },
+  "SHARED":{
+    "FIRST_NAME": "Անուն",
+    "LAST_NAME": "Ազգանուն",
+    "ADDRESS": "Առաքման հասցե",
+    "PHONE": "Հեռախոսահամար",
+    "PHONE_2": "Լր. հեռախոսահամար",
+    "SAVE": "Պահպանել",
+    "NEXT": "Առաջ",
+    "REQUIRED_FIELD": "Պարտադիր դաշտ",
+    "WEAK_PASSWORD": "Թույլ գաղտնաբառ",
+    "BAD_E-MAIL": "Սխալ էլ․ հասցե",
+    "TOO_LONG": "Գերազանցվել է թույլատրելի նշանների քանակը",
+    "INVALID_PHONE": "Հեռախոսի համարը սխալ ֆորմատով է",
+    "COMMUNITY":"Համայնք",
+    "PASSWORD": "Գաղտնաբառ",
+    "CONFIRM_PASSWORD": "Կրկնեք գաղտնաբառը",
+    "ADD_INFO":"Հավելյալ նշումների դաշտ...",
+    "INVALID_PASSWORD":"Սխալ գաղտնաբառ․",
+    "NOT_EQUAL_PASSWORDS":"Գաղտնաբառերը չեն համնկնում․",
+    "ARMENIAN_TEXT": "Տեքստը պետք է լինի հայերեն",
+    "ENGLISH_TEXT": "Տեքստը պետք է լինի անգլերեն"
+  },
+  "ADMIN":{
+    "TOTAL_USERS": " Օգտատերեր: ",
+    "TOTAL_ORDERS": " Պատվերներ: ",
+    "TOTAL_MEDICINE": " Դեղորայք: ",
+    "TOTAL": " Ընդհանուր ",
+    "PRODUCTS": " Ապրանքներ ",
+    "CATEGORIES": "Կատեգորիաներ ",
+    "NAME": " Անուն ",
+    "DISCRIPTION": " Բացատրություն ",
+    "PRICE": " Գին ",
+    "ADD": " Ավելացնել ",
+    "EDIT_PRODUCT": " Խմբագրել ապրանք ",
+    "ADD_PRODUCT": " Ավելացնել ապրանք ",
+    "CHOOSE_PICTURE": " Ընտրել նկար ",
+    "BACK": " Վերադառնալ ",
+    "EDIT": " Խմբագրել ",
+    "ARE_YOU_WANT": " Ցանկանում եք ջնջել? ",
+    "DELETE": " Ջնջել ",
+    "CANCEL": " Չեղարկել ",
+    "CHOOSE_CATEGORY": "Ընտրել կատեգորիան",
+    "CATEGORY_ENG": "Ավելացնել կատեգորիա - Անգլերեն",
+    "CATEGORY_ARM": "Ավելացնել կատեգորիա - Հայերեն",
+    "ADD_CATEGORY": "Ավելացնել կատեգորիա",
+    "OR_ADD_CATEGORY": "Կամ ավելացնել կատեգորիա",
+    "DONE" : "Ավարտված"
+  },
+  "CART": {
+    "PRICE": " Գին ",
+    "QUANTITY": " Քանակ ",
+    "SUBTOTAL": " Ընդ. Գումար ",
+    "REMOVE": " Ջնջել ",
+    "PRODUCT": " Ապրանք ",
+    "CART_EMPTY": " Զամբյուղը դատարկ է  ",
+    "CHECKOUT": " Հաստատել ",
+    "TOTAL": " Ընդհանուր ",
+    "CONT_SHOPPING": " Շարունակել գնումը "
+  }
+}

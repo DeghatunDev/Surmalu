@@ -1,0 +1,135 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+/* ========================= FONTS WEIGHT ========================= */
+.font-thin {
+  font-weight: 100;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-light-italic {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+/* ========================= END OF FONTS WEIGHT ========================= */
+
+/* ========================= BUTTONS ========================= */
+.button-layout-small {
+  color: $white;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 4px 9px;
+  text-transform: uppercase;
+}
+
+.button-layout {
+  color: $white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 12px 47px;
+  text-transform: uppercase;
+  border-width: 2px !important;
+}
+
+.button-red {
+  background: $light_green;
+  border-color: $light_green;
+  &:hover, &:focus {
+    background: $white !important;
+    border-color: $green !important;
+    color: $green !important;
+  }
+}
+
+.button-red-dark {
+  background: #E13838;
+  border-color: #E13838;
+  &:hover, &:focus {
+    background: $white !important;
+    border-color: #E13838 !important;
+    color: #E13838 !important;
+  }
+}
+.button-green {
+  background: $green;
+  border-color: $green;
+  &:hover, &:focus {
+    background: $green !important;
+    border-color: $green !important;
+  }
+ }
+
+ .button-green-dark {
+  background: #038307 ;
+  border-color: #038307 ;
+  &:hover, &:focus {
+    background: #038307 !important;
+    border-color: #038307 !important;
+  }
+ }
+
+.button-green {
+  background: $green;
+  border-color: $green;
+  &:hover, &:focus {
+    background: $white !important;
+    border-color: $green !important;
+    color: $green !important;
+  }
+}
+
+.button-green-dark {
+  background: #038307;
+  border-color: #038307;
+  &:hover, &:focus {
+    background: $white !important;
+    border-color: #038307 !important;
+    color: #038307 !important;
+  }
+}
+
+.button-rounded {
+  @include border-radius(30px);
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+/* ========================= END OF BUTTONS ========================= */
+
+.form-link {
+  cursor: pointer;
+  color: #2E5676;
+  font-size: 0.875rem;
+  margin-bottom: 42px;
+}
+
+@media (min-width: 1570px) {
+  .container {
+    width: auto;
+    max-width: 1520px;
+  }
+}
+
+@media (min-width: 768px) {
+}

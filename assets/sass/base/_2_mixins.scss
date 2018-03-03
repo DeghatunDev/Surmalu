@@ -1,0 +1,134 @@
+/* ========================= TRANSFROM ========================= */
+@mixin centerer($position: relative, $horizontal: true, $vertical: true) {
+    position: $position;
+    @if ($horizontal and $vertical) {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    } @else if ($horizontal) {
+      left: 50%;
+      transform: translate(-50%, 0);
+    } @else if ($vertical) {
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+
+  @mixin transition($transition...) {
+    -webkit-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+  }
+  /* ========================= END OF TRANSFROM ========================= */
+
+  /* ========================= BORDER RADIUS ========================= */
+  @mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+  /* ========================= END OF BORDER RADIUS ========================= */
+
+  /* ========================= GRADIENT ========================= */
+  @function convert-angle($value, $unit) {
+    $convertable-units: deg grad turn rad;
+    $conversion-factors: 1 (10grad/9deg) (1turn/360deg) (3.1415926rad/180deg);
+    @if index($convertable-units, unit($value)) and index($convertable-units, $unit) {
+      @return $value
+               / nth($conversion-factors, index($convertable-units, unit($value)))
+               * nth($conversion-factors, index($convertable-units, $unit));
+    }
+
+    @warn "Cannot convert `#{unit($value)}` to `#{$unit}`.";
+  }
+
+  @function is-direction($value) {
+    $is-direction: index((to top, to top right, to right top, to right, to bottom right, to right bottom, to bottom, to bottom left, to left bottom, to left, to left top, to top left), $value);
+    $is-angle: type-of($value) == 'number' and index('deg' 'grad' 'turn' 'rad', unit($value));
+
+    @return $is-direction or $is-angle;
+  }
+
+  @function legacy-direction($value) {
+    @if is-direction($value) == false {
+      @warn "Cannot convert `#{$value}` to legacy syntax because it doesn't seem to be an angle or a direction";
+    }
+
+    $conversion-map: (
+      to top          : bottom,
+      to top right    : bottom left,
+      to right top    : left bottom,
+      to right        : left,
+      to bottom right : top left,
+      to right bottom : left top,
+      to bottom       : top,
+      to bottom left  : top right,
+      to left bottom  : right top,
+      to left         : right,
+      to left top     : right bottom,
+      to top left     : bottom right
+    );
+
+    @if map-has-key($conversion-map, $value) {
+      @return map-get($conversion-map, $value);
+    }
+
+    @return 90deg - convert-angle($value, 'deg');
+  }
+
+  @mixin linear-gradient($direction, $color-stops...) {
+    @if is-direction($direction) == false {
+      $color-stops: ($direction, $color-stops);
+      $direction: 180deg;
+    }
+
+    background: nth(nth($color-stops, 1), 1);
+    background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+    background: linear-gradient($direction, $color-stops);
+  }
+  /* ========================= END OF GRADIENT ========================= */
+
+  /* ========================= BG IMAGE ========================= */
+  @mixin bgimage($folderName, $name, $extension) {
+    $url:"../images/#{$folderName}/#{$name}.#{$extension}";
+    background: url($url);
+  }
+  /* ========================= END OF BG IMAGE ========================= */
+
+  /* ========================= BACKGROUND SIZE ========================= */
+  @mixin background-size($cover:cover, $contain:contain) {
+    -webkit-background-size: $cover;
+    -moz-background-size: $cover;
+    -o-background-size: $cover;
+    background-size: $cover;
+  }
+  //.box { @include background-size(contain); }
+  /* ========================= END OF BACKGROUND SIZE ========================= */
+
+  /* ========================= BOX SHADOW ========================= */
+  @mixin box-shadow-none() {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  @mixin box-shadow($top, $left, $blur, $spread, $color, $inset: false) {
+    @if $inset {
+      -webkit-box-shadow:inset $top $left $blur $spread $color;
+      -moz-box-shadow:inset $top $left $blur $spread $color;
+      box-shadow:inset $top $left $blur $spread $color;
+    } @else {
+      -webkit-box-shadow: $top $left $blur $spread $color;
+      -moz-box-shadow: $top $left $blur $spread $color;
+      box-shadow: $top $left $blur $spread $color;
+    }
+  }
+  /* ========================= END OF BOX SHADOW ========================= */
+
+
+// Transformation
+
+.text-lowercase  { text-transform: lowercase !important; }
+.text-uppercase  { text-transform: uppercase !important; }
+.text-capitalize { text-transform: capitalize !important; }
