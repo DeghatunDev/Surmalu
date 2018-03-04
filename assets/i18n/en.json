@@ -16,6 +16,7 @@
   "PROFILE_DATA_UPDATE":"Your profile data has been updated",
   "SUCCESS_REGISTRATION":"You have been successfully registered․",
   "SUCCESS_ADD_PRODUCT":"Product has been successfully added.",
+  "SUCCESS_ORDER_PLACED":"Order has been successfully placed.",
   "SUCCESS_EDIT_PRODUCT":"Product has been successfully updated.",
   "SUCCESS_DELETE_PRODUCT":"Product has been successfully deleted.",
   "COMMON_ERROR":"Оperation failed․",
@@ -85,7 +86,8 @@
     "INVALID_PASSWORD": "Invalid password",
     "NOT_EQUAL_PASSWORDS": "Passwords don't match.",
     "ARMENIAN_TEXT": "Text should be in armenian",
-    "ENGLISH_TEXT": "Text should be in english"
+    "ENGLISH_TEXT": "Text should be in english",
+    "NUMBER_ONLY": "Invalid input"
   },
   "ADMIN":{
     "TOTAL_USERS": " Total Users: ",
@@ -103,7 +105,7 @@
     "CHOOSE_PICTURE": " Choose a picture ",
     "BACK": " Back ",
     "EDIT": " Edit ",
-    "ARE_YOU_WANT": " Are you want to delete product? ",
+    "ARE_YOU_WANT": " Do you want to delete product?",
     "DELETE": " Delete ",
     "CANCEL": " Cancel ",
     "CHOOSE_CATEGORY": "Choose Category",

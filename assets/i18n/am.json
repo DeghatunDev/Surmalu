@@ -16,6 +16,7 @@
   "PROFILE_DATA_UPDATE":"Ձեր տվյալները թարմացվեցին",
   "SUCCESS_REGISTRATION":"Դուք հաջողությամբ գրանցվեցիք․",
   "SUCCESS_ADD_PRODUCT":"Ապրանքը հաջողությամբ ավելացվեց․",
+  "SUCCESS_ORDER_PLACED":"Պատվերը հաջողությամբ գրանցվեց.",
   "SUCCESS_EDIT_PRODUCT":"Ապրանքը հաջողությամբ թարմացվեց․",
   "SUCCESS_DELETE_PRODUCT":"Ապրանքը հաջողությամբ ջնջվեց․",
   "COMMON_ERROR":"Գործողությունը չհաջողվեց կատարել․",
@@ -85,7 +86,8 @@
     "INVALID_PASSWORD":"Սխալ գաղտնաբառ․",
     "NOT_EQUAL_PASSWORDS":"Գաղտնաբառերը չեն համնկնում․",
     "ARMENIAN_TEXT": "Տեքստը պետք է լինի հայերեն",
-    "ENGLISH_TEXT": "Տեքստը պետք է լինի անգլերեն"
+    "ENGLISH_TEXT": "Տեքստը պետք է լինի անգլերեն",
+    "NUMBER_ONLY": "Թույլատրվում են միայն թվեր․"
   },
   "ADMIN":{
     "TOTAL_USERS": " Օգտատերեր: ",
