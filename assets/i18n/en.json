@@ -16,6 +16,7 @@
   "PROFILE_DATA_UPDATE":"Your profile data has been updated",
   "SUCCESS_REGISTRATION":"You have been successfully registered․",
   "SUCCESS_ADD_PRODUCT":"Product has been successfully added.",
+  "SUCCESS_CHANGE_CART":"Shopping cart has been successfully updated.",
   "SUCCESS_ORDER_PLACED":"Order has been successfully placed.",
   "SUCCESS_EDIT_PRODUCT":"Product has been successfully updated.",
   "SUCCESS_DELETE_PRODUCT":"Product has been successfully deleted.",

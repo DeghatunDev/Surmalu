@@ -16,6 +16,7 @@
   "PROFILE_DATA_UPDATE":"Ձեր տվյալները թարմացվեցին",
   "SUCCESS_REGISTRATION":"Դուք հաջողությամբ գրանցվեցիք․",
   "SUCCESS_ADD_PRODUCT":"Ապրանքը հաջողությամբ ավելացվեց․",
+  "SUCCESS_CHANGE_CART":"Զամբյուղը հաջողությամբ թարմացվեց․",
   "SUCCESS_ORDER_PLACED":"Պատվերը հաջողությամբ գրանցվեց.",
   "SUCCESS_EDIT_PRODUCT":"Ապրանքը հաջողությամբ թարմացվեց․",
   "SUCCESS_DELETE_PRODUCT":"Ապրանքը հաջողությամբ ջնջվեց․",
