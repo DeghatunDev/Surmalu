@@ -21,8 +21,9 @@
   "SUCCESS_EDIT_PRODUCT":"Product has been successfully updated.",
   "SUCCESS_DELETE_PRODUCT":"Product has been successfully deleted.",
   "COMMON_ERROR":"Оperation failed․",
-  "ERROR_GET_DATA":"Data get error.The server is unavailable",
+  "ERROR_GET_DATA":"Data get error.The server is unavailable.",
   "ERROR_FILE_TYPE": "Unsupported file type․",
+  "ERROR_FILE_SIZE": "File size should be less than 2MB․",
   "LOGIN": {
     "TITLE": "Login",
     "FORGOT_YOUR_PASSWORD": "Forgot Your Password ?",

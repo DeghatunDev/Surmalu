@@ -22,7 +22,8 @@
   "SUCCESS_DELETE_PRODUCT":"Ապրանքը հաջողությամբ ջնջվեց․",
   "COMMON_ERROR":"Գործողությունը չհաջողվեց կատարել․",
   "ERROR_GET_DATA":"Տվյալների ստացման սխալ․Սերվերը անհասանելի է",
-  "ERROR_FILE_TYPE": "Փայլի տիպը սխալ է․",
+  "ERROR_FILE_TYPE": "Ֆայլի տիպը սխալ է․",
+  "ERROR_FILE_SIZE": "Ֆայլը չի կարող լինել 2MB-ից մեծ.",
   "LOGIN": {
     "TITLE": "Մուտք",
     "FORGOT_YOUR_PASSWORD": "Մոռացե՞լ եք գաղտնաբառը",
